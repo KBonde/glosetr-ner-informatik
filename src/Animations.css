@@ -1,0 +1,7 @@
+.input {
+    transition: width .35s linear;
+  }
+  
+  .input-focused {
+    width: 240px;
+  }

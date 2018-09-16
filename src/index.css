@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#main_wrapper {
+  margin: auto;
+  text-align: center;
+}
+
+/*Image styling*/
+#img_container {
+  width: 100%;
+  text-align: center; 
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#main_img {
+ border: 5px dotted lightgrey; 
+ border-radius: 5px;
+}
+
+/*Input styling*/
+.input {
+  outline: none;
+  border: 5px white;
+  border-radius: 10px;
+  background-color: lightgrey;
+  height: 30px;
+  width: 150px;
+  font-size: 20px;
+  padding: 5px 15px 5px 15px;
+}
+
+/*Styling of arrows and arrow containers*/
+
+#right_arrow_container {
+  padding: 20px;
+  margin: 0;
+  width: 30%;
+  vertical-align: center;
+  float: right;
+  padding-top: 200px;
+}
+
+#left_arrow_container {
+  padding: 20px;
+  margin: 0;
+  width: 30%;
+  vertical-align: center;
+  float: left;
+  padding-top: 200px;
+}
+
+#right_arrow {
+  width: 40%;
+  height: 40%;
+}
+
+#left_arrow {
+  width: 40%;
+  height: 40%;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+/*Correct word styling*/
+#correct_word {
+  font-size: 46px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  margin-top: 0;
+}
+
